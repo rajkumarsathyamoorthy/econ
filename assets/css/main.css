@@ -265,3 +265,87 @@ select {
   padding: 2px 10px 3px 10px;
   line-height: 20px;
 }
+.econ-todays{
+  background-color: #171f35;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #939299;
+}
+.econ-todays-date{
+
+}
+.econ-todays-events{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.econ-todays-events li:nth-child(2n+1){
+  color: #b44776;
+}
+.econ-todays-events li:nth-child(2n+0){
+  color:#dfc0b5
+}
+.econ-todays-events li{
+  float: left;
+  width: 20%;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 5px 20px;
+  white-space: nowrap;
+  font-family: futura_lt_btlight;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.econ-banner{
+  background: #1f2b49;
+}
+.econ-ban-logo{
+  font-family: chunkfive_exregular;
+  font-size: 60px;
+  color: #6ae5af;
+  display: inline-block;
+  margin: 88px 0 5px 0;
+}
+.econ-banner-content{
+  width: 80%;
+  margin: 0 auto;
+}
+.econ-ban-left{
+  float: left;
+  width: 50%;
+}
+.econ-ban-image{
+  width: 100%;
+}
+.econ-ban-text{
+  font-family: futura_lt_btlight;
+  color: #Fff;
+  width: 70%;
+  line-height: 22px;
+  font-size: 18px;
+}
+.econ-ban-email{
+  width: 60%;
+  line-height: 20px;
+  margin: 20px 0;
+  padding: 2px 5px;
+  outline: none;
+  font-family: futura_lt_btlight;
+  border: none;
+}
+.econ-ban-signup{
+  font-size: 13px;
+  color: #6ae5af;
+  border-radius: 30px;
+  border: 1px solid #6ae5af;
+  padding: 2px 30px 0px 30px;
+  line-height: 23px;
+  background-color: transparent;
+  outline: none;
+  text-transform: uppercase;
+}
+.econ-ban-right{
+  float: right;
+  width: 50%;
+}
