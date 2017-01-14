@@ -3,8 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -13,32 +80,44 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
     vertical-align: baseline;
     background: transparent;
 }
-
 body {
     line-height: 1;
 }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
     display: block;
 }
-
 nav ul {
     list-style: none;
 }
-
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
-
-blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
     content: '';
     content: none;
 }
-
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: 100;
 }
-
 a {
     margin: 0;
     padding: 0;
@@ -47,8 +126,6 @@ a {
     background: transparent;
     text-decoration: none;
 }
-
-
 /* change colours to suit your needs */
 
 ins {
@@ -56,8 +133,6 @@ ins {
     color: #000;
     text-decoration: none;
 }
-
-
 /* change colours to suit your needs */
 
 mark {
@@ -66,22 +141,18 @@ mark {
     font-style: italic;
     font-weight: bold;
 }
-
 del {
     text-decoration: line-through;
 }
-
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
     border-bottom: 1px dotted;
     cursor: help;
 }
-
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-
 /* change border colour to suit your needs */
 
 hr {
@@ -92,69 +163,57 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
-input, select {
+input,
+select {
     vertical-align: middle;
 }
-
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-
 @font-face {
     font-family: 'futura_bk_btbook_italic';
     src: url('Fonts/bitstream_-_futura_bk_bt_book_italic-webfont.woff2') format('woff2'), url('Fonts/bitstream_-_futura_bk_bt_book_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'futura_bk_btbook';
     src: url('Fonts/bitstream_-_futura_bk_bt_book-webfont.woff2') format('woff2'), url('Fonts/bitstream_-_futura_bk_bt_book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'futura_lt_btlight_italic';
     src: url('Fonts/bitstream_-_futura_lt_bt_light_italic-webfont.woff2') format('woff2'), url('Fonts/bitstream_-_futura_lt_bt_light_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'futura_lt_btlight';
     src: url('Fonts/bitstream_-_futura_lt_bt_light-webfont.woff2') format('woff2'), url('Fonts/bitstream_-_futura_lt_bt_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'chunkfive_exregular';
     src: url('Fonts/chunkfive_ex-webfont.woff2') format('woff2'), url('Fonts/chunkfive_ex-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-
 /* econ-container starts */
 
 .econ-container {}
-
-
 /* econ header */
 
 .econ-header {
     background-color: #1f2b49;
 }
-
 .econ-hdr {
     width: 80%;
     margin: 0 auto;
 }
-
 .econ-logo {
     font-family: chunkfive_exregular;
     font-size: 60px;
@@ -162,28 +221,23 @@ input, select {
     display: inline-block;
     margin: 15px 0 5px 0;
 }
-
 .econ-left-menu {
     float: left;
 }
-
 .econ-hdr-menu {
     margin: 10px 0;
 }
-
-.econ-left-menu li, .econ-right-menu li {
+.econ-left-menu li,
+.econ-right-menu li {
     float: left;
     font-family: futura_lt_btlight;
 }
-
 .econ-left-menu li {
     margin: 0 40px 0 0;
 }
-
 .econ-right-menu li {
     margin-right: 10px;
 }
-
 .econ-left-menu li a {
     text-transform: uppercase;
     color: #fff;
@@ -191,24 +245,20 @@ input, select {
     padding: 5px 10px;
     display: block;
 }
-
 .econ-left-menu li a.active {
     color: #6ae5af;
     border-radius: 30px;
     border: 1px solid #6ae5af;
 }
-
 .econ-right-menu {
     float: right;
 }
-
 .econ-hdr-searchbox {
     border-radius: 20px;
     outline: none;
     border: none;
     padding: 3px 10px;
 }
-
 .econ-right-menu li a {
     font-size: 12px;
     color: #ffffff;
@@ -217,29 +267,33 @@ input, select {
     padding: 2px 10px 3px 10px;
     line-height: 20px;
 }
-
 .econ-todays {
     background-color: #171f35;
     border-top: 1px solid #f9f9f9;
     border-bottom: 1px solid #939299;
 }
-
-.econ-todays-date {}
-
-.econ-todays-events {
+.econ-todays-date {} .econ-todays-events {
     width: 80%;
     margin: 0 auto;
     padding: 10px 0;
 }
-
+ul.econ-todays-events li:nth-child(1) {
+    color: #fff;
+    text-transform: capitalize;
+}
 .econ-todays-events li:nth-child(2n+1) {
     color: #b44776;
 }
-
+.econ-app-download-link {
+    margin: 20px 0;
+}
+.econ-app-download-link a img {
+    height: 40px;
+    margin-right: 10px;
+}
 .econ-todays-events li:nth-child(2n+0) {
     color: #dfc0b5
 }
-
 .econ-todays-events li {
     float: left;
     width: 20%;
@@ -253,11 +307,9 @@ input, select {
     text-transform: uppercase;
     font-size: 12px;
 }
-
 .econ-banner {
     background: #1f2b49;
 }
-
 .econ-ban-logo {
     font-family: chunkfive_exregular;
     font-size: 60px;
@@ -265,21 +317,18 @@ input, select {
     display: inline-block;
     margin: 88px 0 5px 0;
 }
-
 .econ-banner-content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
-
 .econ-ban-left {
     float: left;
     width: 50%;
 }
-
 .econ-ban-image {
     width: 100%;
+    margin-top: 20px;
 }
-
 .econ-ban-text {
     font-family: futura_lt_btlight;
     color: #Fff;
@@ -287,7 +336,6 @@ input, select {
     line-height: 22px;
     font-size: 18px;
 }
-
 .econ-ban-email {
     width: 60%;
     line-height: 20px;
@@ -297,7 +345,6 @@ input, select {
     font-family: futura_lt_btlight;
     border: none;
 }
-
 .econ-ban-signup {
     font-size: 13px;
     color: #6ae5af;
@@ -309,30 +356,25 @@ input, select {
     outline: none;
     text-transform: uppercase;
 }
-
 .econ-ban-right {
     float: right;
     width: 50%;
 }
-
 .econ-most-recent-events {
     background: #646e9f;
 }
-
 .econ-events-container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
     font-family: futura_lt_btlight;
 }
-
 .econ-events-hdr {
     font-size: 50px;
     color: #fff;
     line-height: 60px;
     margin-top: 10px;
 }
-
 .econ-events-subhdr {
     background: #171f35;
     color: #6ae5af;
@@ -341,11 +383,9 @@ input, select {
     font-size: 14px;
     margin-top: 15px;
 }
-
 .econ-events-list {
     margin-top: 10px;
 }
-
 .econ-events-list li {
     background: #171f35;
     color: #fff;
@@ -353,50 +393,75 @@ input, select {
     margin-bottom: 20px;
     box-shadow: -3px 3px 5px rgba(16, 16, 19, 0.78);
 }
-
 .econ-el-name {
     display: inline-block;
     float: left;
     padding: 16px 10px;
-    width: 56%;
+    width: 60%;
 }
-
 .econ-el-level {
     float: left;
     padding: 2px 20px;
     border-right: 1px solid #515768;
 }
-
 .econ-el-level-name {
     font-size: 13px;
     float: left;
 }
-
-.econ-el-level-name.medium {
+li.medium .econ-el-detail-name, li.medium .econ-el-level-name {
     color: #fff100;
 }
-
+li.high .econ-el-detail-name, li.high .econ-el-level-name {
+    color: #ee2689;
+}
+li.low .econ-el-detail-name, li.low .econ-el-level-name {
+    color: #65c3a0;
+}
+.econ-el-mb-level-bar{
+  display: none;
+}
+li.medium .econ-el-level-bar {
+    background-color: #fff100;
+    width: 55%;
+}
+li.high  .econ-el-level-bar {
+    background-color: #ee2689;
+    width: 100%;
+}
+li.low  .econ-el-level-bar {
+    background-color: #65c3a0;
+    width: 35%;
+}
+li.low .econ-el-mb-level-bar {
+    background-color: #65c3a0;
+    height: 30%;
+}
+li.high .econ-el-mb-level-bar {
+    background-color: #ee2689;
+    height: 85%;
+}
+li.medium .econ-el-mb-level-bar {
+    background-color: #fff100;
+    height: 55%;
+}
 .econ-el-level-bar {
     width: 40%;
-    border-bottom: 5px solid #fff100;
+    background-color: inherit;
     float: left;
-    height: 10px;
+    height: 8px;
+    margin-top: 2px;
 }
-
 .econ-el-detail-flag {
     float: left;
     width: 30px;
     margin-top: 3px;
 }
-
 .econ-el-detail-flag img {
     width: 100%;
 }
-
 .econ-el-detail {
     float: left;
 }
-
 .econ-el-detail-time {
     float: left;
     font-family: sans-serif;
@@ -404,14 +469,14 @@ input, select {
     line-height: 25px;
     padding: 0 20px;
 }
-
 .econ-el-detail-name {
     float: left;
-    color: #fff100;
     font-size: 25px;
     padding: 0 15px;
 }
-
+.econ-mb-btn {
+    display: none;
+}
 .econ-el-detail-desc {
     float: left;
     font-family: sans-serif;
@@ -419,88 +484,77 @@ input, select {
     line-height: 25px;
     padding: 0 20px;
 }
-
 .econ-el-month {
     float: left;
     padding: 13px 0;
     text-align: center;
-    width: 11%;
+    width: 16%;
     font-style: italic;
     background: #1f2b49;
     box-shadow: 0px 1px 5px rgba(16, 16, 19, 0.78)
 }
-
 .econ-el-month-duration {
     display: block;
     font-size: 13px;
 }
-
 .econ-el-month-name {
     display: block;
     text-transform: uppercase;
     line-height: 20px;
     font-size: 14px;
 }
-
 .econ-el-previous {
     float: left;
     padding: 13px 0;
     text-align: center;
-    width: 11%;
+    width: 8%;
     font-style: italic;
     background: #646e9f;
     box-shadow: 0px 1px 5px rgba(16, 16, 19, 0.78)
 }
-
 .econ-el-forecast {
     float: left;
     padding: 13px 0;
     text-align: center;
-    width: 11%;
+    width: 8%;
     font-style: italic;
     background: #6ae5af;
     box-shadow: 0px 1px 5px rgba(16, 16, 19, 0.78)
 }
-
 .econ-el-actual {
     float: left;
     padding: 13px 0;
     text-align: center;
-    width: 11%;
+    width: 8%;
     font-style: italic;
     background: #372753;
     box-shadow: 0px 1px 5px rgba(16, 16, 19, 0.78)
 }
-
 .econ-tense-name {
     display: block;
     font-size: 13px;
 }
-
 .econ-tense-percentage {
     display: block;
     text-transform: uppercase;
     line-height: 20px;
     font-size: 14px;
 }
-
 .econ-green-box {
     background: #6ae5af;
+    border-bottom: 2px solid rgba(24, 25, 29, 0.5);
 }
-
 .econ-green-box-container {
     width: 70%;
     margin: 0 auto;
 }
-
 .econ-gc-panel {
     width: 33.33%;
     float: left;
     text-align: center;
     font-family: futura_lt_btlight;
-    padding-bottom: 60px;
+    padding: 0 5% 60px 5%;
 }
-
 .econ-gc-panel-circle {
     background: #fff;
     width: 100px;
@@ -509,88 +563,79 @@ input, select {
     display: inline-block;
     margin: 100px 0 20px 0;
 }
-
 .econ-gc-panel-title {
     font-weight: bold;
     font-size: 16px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
-
 .econ-gc-panel-desc {
     font-size: 13px;
     margin-top: 20px;
 }
-
 .econ-showcase {
     background: #fff;
     font-family: futura_lt_btlight;
     padding-bottom: 45px;
     color: #1f2b49;
 }
-
 .econ-showcase-container {
     width: 80%;
     margin: 0 auto;
 }
-
 .econ-showcase-mac img {
     width: 100%;
 }
-
 .econ-showcase-hdr {
     font-size: 45px;
     line-height: 50px;
     font-weight: bold;
     width: 60%;
-    margin:10px auto 20px auto;
+    margin: 10px auto 20px auto;
 }
-
 .econ-showcase-desc {
     font-size: 25px;
     width: 70%;
     margin: 0 auto;
 }
-
-.econ-signup-now{
-  background: #646e9f;
-  font-family: futura_lt_btlight;
-
+.econ-signup-now {
+    background: #646e9f;
+    font-family: futura_lt_btlight;
 }
-.econ-signup-now-container{
-  width:70%;
-  margin: 0 auto;
-  padding: 20px 0 60px 0;
+.econ-signup-now-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0 60px 0;
 }
-.econ-signup-hdr{
-  font-size: 50px;
-  color: #fff;
-  line-height: 60px;
-  margin-top: 10px;
+.econ-signup-hdr {
+    font-size: 50px;
+    color: #fff;
+    line-height: 60px;
+    margin-top: 10px;
 }
-.econ-signup-desc{
-  font-size: 20px;
-  width: 60%;
-  color: #ced1da;
-  margin-top: 20px;
+.econ-signup-desc {
+    font-size: 20px;
+    width: 60%;
+    color: #ced1da;
+    margin-top: 20px;
 }
-.econ-signup-input{
-  width: 320px;
-line-height: 20px;
-margin: 20px 0;
-padding: 2px 5px;
-outline: none;
-font-family: futura_lt_btlight;
-border: none;
-float: left;
+.econ-signup-input {
+    width: 320px;
+    line-height: 20px;
+    margin: 20px 0;
+    padding: 2px 5px;
+    outline: none;
+    font-family: futura_lt_btlight;
+    border: none;
+    float: left;
 }
-.econ-signup-form{
-  margin-top: 10px;
+.econ-signup-form {
+    margin-top: 10px;
 }
-.fa-search{
-  color: #fff;
-font-size: 15px;
-padding: 0 10px;
-line-height: 22px;
+.fa-search {
+    color: #fff;
+    font-size: 15px;
+    padding: 0 10px;
+    line-height: 22px;
 }
 .econ-signup-btn {
     font-size: 13px;
@@ -608,21 +653,21 @@ line-height: 22px;
 .econ-community-saying {
     background-color: #eb548c;
     color: #f3d9e2;
+    border-bottom: 2px solid rgba(6, 14, 33, 1);
 }
-
 .inner:after {
-  content: "";
-  width: 191px;
-  height: 186px;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-top: none;
-  border-left: none;
-  display: block;
-  position: absolute;
-  bottom: -16px;
-  left: 26%;
-  background: #E9E9E9;
-  transform: skewY(-45deg);
+    content: "";
+    width: 191px;
+    height: 186px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    border-left: none;
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 26%;
+    background: #E9E9E9;
+    transform: skewY(-45deg);
 }
 .i2 {
     background: #EFEFEF;
@@ -630,73 +675,123 @@ line-height: 22px;
     top: -150px;
 }
 .inner {
-  position: absolute;
-  width: 590px;
-  height: 205px;
-  border-radius: 49px;
-  background: #ECECEC;
-  opacity: 0.1;
-  z-index: 0;
+    position: absolute;
+    width: 590px;
+    height: 205px;
+    border-radius: 49px;
+    background: #ECECEC;
+    opacity: 0.1;
+    z-index: 0;
 }
-
 .econ-community-saying-container {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
 }
-.econ-community-saying-iconx{
-height: 100px;
+.econ-community-saying-iconx {
+    height: 100px;
     position: relative;
 }
-.econ-cs-hdr{
-  text-align: center;
-      font-size: 32px;
-      font-family: sans-serif;
-      font-weight: bold;
-      margin-top: 20px;
+.econ-cs-hdr {
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
 }
-.econ-cs-post li{
-  width: 33.33%;
-  list-style: none;
-  float: left;
-  margin-top: 50px;
+.econ-cs-post li {
+    width: 33.33%;
+    list-style: none;
+    float: left;
+    margin-top: 50px;
 }
-.econ-cs-post-dp{
+.econ-cs-post-dp {
     float: left;
     width: 20%;
 }
-.econ-cs-post-dpg{
-  width: 50px;
-  border-radius: 50%;
-  border: 3px solid #fff;
+.econ-cs-post-dpg {
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #fff;
 }
-.econ-cs-post-content{
+.econ-cs-post-content {
     float: left;
     width: 80%;
     font-family: sans-serif;
 }
-.econ-cs-post-cont-hdr{
-
+.econ-cs-post-cont-hdr {} .econ-cs-quotes {
+    float: left;
+    font-size: 26px;
 }
-.econ-cs-quotes{
-  float: left;
-  font-size: 26px;
+.econ-cs-title {
+    float: left;
+    padding-left: 10px;
 }
-.econ-cs-title{
-  float: left;
-  padding-left: 10px;
+.econ-cs-title-tag {
+    font-size: 12px;
+    display: block;
 }
-.econ-cs-title-tag{
-  font-size: 12px;
-  display: block;
-}
-.econ-cs-title-desc{
+.econ-cs-title-desc {
     font-size: 13px;
 }
-.econ-cs-data{
-  color: #61122f;
-margin: 10px 0 30px 0;
-font-size: 14px;
-font-style: italic;
-
+.econ-cs-data {
+    color: #61122f;
+    margin: 10px 0 30px 0;
+    font-size: 14px;
+    font-style: italic;
+}
+.econ-footer {
+    background: #1f2b49;
+    color: #d1d3d4;
+}
+.econ-footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: futura_lt_btlight;
+}
+.econ-footer-list {
+    list-style: none;
+    float: left;
+    padding: 30px 0 45px 0;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+.econ-footer-list li:first-child a {
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.econ-footer-list li a {
+    color: #d1d3d4;
+    line-height: 18px;
+    font-size: 14px;
+    display: block;
+}
+.econ-footer-last {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #424d74;
+    padding: 10px 0 30px 0;
+}
+.econ-footer-last-list {
+    float: right;
+}
+.econ-footer-last-list li {
+    float: left;
+}
+.econ-footer-last-list li a {
+    color: #d1d3d4;
+    line-height: 18px;
+    font-size: 13px;
+    display: block;
+    text-transform: uppercase;
+    padding: 5px 25px;
+}
+.econ-chat-icon {
+    position: absolute;
+    width: 100px;
+    top: 15px;
+    left: 46%;
+    text-align: center;
+    opacity: 0.3;
 }

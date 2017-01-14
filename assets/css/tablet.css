@@ -1,0 +1,44 @@
+@media all and (min-width: 769px) and (max-width: 960px) {
+.econ-left-menu li{
+  margin: 0;
+}
+.econ-hdr-searchbox{
+      width: 145px;
+}
+}
+@media all and (min-width: 769px) and (max-width: 1260px) {
+  .econ-hdr, .econ-events-container, .econ-green-box-container, .econ-showcase-container, .econ-community-saying-container, .econ-footer-container {
+    width: 100%;
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  .econ-el-name {
+    padding: 16px 0;
+    width: 64%;
+  }
+  .econ-el-level {
+    padding: 2px 5px;
+  }
+  .econ-el-detail-time {
+    padding: 0 10px;
+  }
+  .econ-el-detail-name {
+    padding: 0 15px;
+}
+.econ-el-detail-desc {
+    padding: 0 10px;
+    font-size: 14px;
+}
+.econ-el-month {
+    width: 13%;
+}
+.econ-el-previous{
+  width: 8%;
+}
+.econ-el-forecast{
+  width: 8%;
+}
+.econ-el-actual{
+  width: 7%;
+}
+}

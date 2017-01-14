@@ -1,0 +1,272 @@
+@media all and (min-width: 320px) and (max-width: 768px) {
+    .econ-hdr-menu {
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        margin: 0;
+    }
+    .econ-hdr,
+    .econ-events-container,
+    .econ-showcase-container {
+        width: 100%;
+    }
+    .econ-logo {
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 17px;
+    }
+    .econ-left-menu {
+        text-align: center;
+    }
+    .econ-left-menu,
+    .econ-right-menu {
+        float: none;
+    }
+    .econ-left-menu li,
+    .econ-right-menu li {
+        float: none;
+        padding: 10px;
+        background: #212424;
+        margin: 0;
+        text-align: center;
+    }
+    .econ-left-menu li {
+        border-bottom: 1px solid #333;
+    }
+    .hide {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+    .econ-left-menu li a {
+        width: 125px;
+        margin: 0 auto;
+    }
+    .econ-right-menu li:nth-child(2) a,
+    .econ-right-menu li:nth-child(3) a {
+        padding: 4px 30px 5px 30px;
+        font-size: 15px;
+        line-height: 32px;
+    }
+    .econ-el-mb-level-bar {
+        display: block;
+        position: absolute;
+        width: 5px;
+        height: 100px;
+        background-color: #fff;
+        left: -5px;
+        bottom: 0;
+        box-shadow: -3px 3px 5px rgba(16, 16, 19, 0.5);
+    }
+    .econ-events-list li {
+        position: relative;
+    }
+    .econ-right-menu li:first-child {
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+    .econ-right-menu li:nth-child(2),
+    .econ-right-menu li:nth-child(3) {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    .econ-ban-left {
+        float: none;
+        width: 90%;
+    }
+    .econ-ban-right {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .econ-showcase {
+        padding-bottom: 10px;
+    }
+    .econ-signup-now-container {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .econ-signup-hdr {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 0;
+    }
+    .econ-signup-desc {
+        width: 100%;
+    }
+    .econ-showcase-mac {
+        margin: 10px auto;
+        width: 90%;
+    }
+    .econ-showcase-hdr {
+        font-size: 30px;
+        line-height: 30px;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .econ-showcase-desc {
+        font-size: 22px;
+        width: 100%;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .econ-gc-panel-desc {
+        font-size: 16px;
+    }
+    .econ-ban-logo {
+        font-size: 30px;
+        margin: 5px 0 10px 0;
+        width: 100%;
+    }
+    .econ-ban-text {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .econ-ban-email,
+    .econ-signup-input {
+        width: 90%;
+        line-height: 25px;
+        margin: 20px auto;
+        float: none;
+    }
+    .econ-app-download-link {
+        margin: 30px 0;
+    }
+    .econ-ban-signup,
+    .econ-signup-btn {
+        padding: 8px 50px 7px 50px;
+        float: none;
+        margin: 0;
+    }
+    .econ-community-saying-container {
+        width: 100%;
+        padding: 20px;
+    }
+    .econ-el-detail-time {
+        float: none;
+        padding: 0 10px;
+    }
+    .econ-el-detail-name {
+        float: left;
+        font-size: 40px;
+        padding: 0 10px;
+    }
+    .econ-el-detail-desc {
+        padding: 0;
+        font-size: 13px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        float: none;
+    }
+    .econ-mb-btn {
+        display: inline-block;
+        position: absolute;
+        color: #fff;
+        font-size: 30px;
+        left: 10px;
+        top: 10px;
+        padding: 10px;
+    }
+    .econ-chat-icon {
+        width: 80px;
+        top: -22px;
+        left: 40%;
+    }
+    ul.econ-todays-events li:nth-child(1) {
+        position: absolute;
+        top: 40px;
+        right: 8px;
+        width: 83px;
+    }
+    .econ-todays-events li {
+        width: 25%;
+        padding: 5px 10px;
+    }
+    .econ-cs-hdr {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .econ-todays-events {
+        width: 100%;
+    }
+    .econ-cs-post li {
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+    }
+    .econ-community-saying-iconx {
+        height: 50px;
+        position: relative;
+    }
+    .econ-footer-list {
+        float: left;
+        padding: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        width: 50%;
+    }
+    .econ-footer-list li:first-child a {
+        padding-bottom: 10px;
+        text-decoration: underline;
+    }
+    .econ-footer-container {
+        width: 100%;
+        padding: 0 15px 20px 15px;
+    }
+    .econ-events-hdr {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+    .econ-footer-last {
+        margin-top: 15px;
+        padding: 10px 0 20px 0;
+    }
+    .econ-el-name {
+        padding: 0;
+        width: 100%;
+    }
+    .econ-footer-last-list li {
+        width: 25%;
+        text-align: center;
+    }
+    .econ-footer-last-list {
+        float: none;
+    }
+    .econ-footer-last-list li a {
+        font-size: 12px;
+        padding: 0;
+    }
+    .econ-el-month {
+        width: 40%;
+    }
+    .econ-el-previous,
+    .econ-el-forecast,
+    .econ-el-actual {
+        width: 20%;
+    }
+    .econ-el-level,
+    .econ-el-detail-flag {
+        display: none;
+    }
+    .econ-green-box-container {
+        width: 100%;
+        padding: 10px 15px;
+    }
+    .econ-gc-panel-circle {
+        margin: 20px 0;
+    }
+    .econ-gc-panel {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+}
