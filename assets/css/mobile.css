@@ -5,10 +5,11 @@
         width: 100%;
         margin: 0;
     }
-    .econ-hdr,
-    .econ-events-container,
-    .econ-showcase-container {
+    .econ-hdr, .econ-events-container, .econ-showcase-container, .econ-filters-container, .econ-filter-list li {
         width: 100%;
+    }
+    .custom-dropdown {
+        margin: 0 0 5px 0;
     }
     .econ-logo {
         font-size: 32px;
@@ -19,12 +20,10 @@
     .econ-left-menu {
         text-align: center;
     }
-    .econ-left-menu,
-    .econ-right-menu {
+    .econ-left-menu, .econ-right-menu {
         float: none;
     }
-    .econ-left-menu li,
-    .econ-right-menu li {
+    .econ-left-menu li, .econ-right-menu li {
         float: none;
         padding: 10px;
         background: #212424;
@@ -33,6 +32,9 @@
     }
     .econ-left-menu li {
         border-bottom: 1px solid #333;
+    }
+    .econ-event-searchbox {
+        text-align: center;
     }
     .hide {
         display: none;
@@ -44,8 +46,7 @@
         width: 125px;
         margin: 0 auto;
     }
-    .econ-right-menu li:nth-child(2) a,
-    .econ-right-menu li:nth-child(3) a {
+    .econ-right-menu li:nth-child(2) a, .econ-right-menu li:nth-child(3) a {
         padding: 4px 30px 5px 30px;
         font-size: 15px;
         line-height: 32px;
@@ -62,13 +63,13 @@
     }
     .econ-events-list li {
         position: relative;
+        padding-bottom: 30px;
     }
     .econ-right-menu li:first-child {
         text-align: center;
         border-bottom: 1px solid #333;
     }
-    .econ-right-menu li:nth-child(2),
-    .econ-right-menu li:nth-child(3) {
+    .econ-right-menu li:nth-child(2), .econ-right-menu li:nth-child(3) {
         width: 50%;
         float: left;
         text-align: center;
@@ -128,8 +129,7 @@
         width: 100%;
         padding: 0 15px;
     }
-    .econ-ban-email,
-    .econ-signup-input {
+    .econ-ban-email, .econ-signup-input {
         width: 90%;
         line-height: 25px;
         margin: 20px auto;
@@ -138,8 +138,7 @@
     .econ-app-download-link {
         margin: 30px 0;
     }
-    .econ-ban-signup,
-    .econ-signup-btn {
+    .econ-ban-signup, .econ-signup-btn {
         padding: 8px 50px 7px 50px;
         float: none;
         margin: 0;
@@ -151,6 +150,11 @@
     .econ-el-detail-time {
         float: none;
         padding: 0 10px;
+        font-size: 12px;
+        font-weight: normal;
+        position: absolute;
+        left: 0;
+        top: 35px;
     }
     .econ-el-detail-name {
         float: left;
@@ -159,7 +163,7 @@
     }
     .econ-el-detail-desc {
         padding: 0;
-        font-size: 13px;
+        font-size: 11px;
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
@@ -246,15 +250,44 @@
         padding: 0;
     }
     .econ-el-month {
-        width: 40%;
+        width: 100px;
+        background: none;
+        box-shadow: none;
+        position: absolute;
+        left: 70px;
+        top: 22px;
+        padding: 0;
     }
-    .econ-el-previous,
-    .econ-el-forecast,
+    .econ-el-month span:last-child {
+        display: none;
+    }
+    .econ-el-previous {
+        position: absolute;
+        right: 90px;
+        bottom: 0;
+        padding: 5px;
+    }
+    .econ-el-forecast {
+        position: absolute;
+        right: 40px;
+        bottom: 0;
+        padding: 5px;
+    }
+    .econ-tense-name {
+        font-size: 10px;
+    }
+    .econ-tense-percentage {
+        font-size: 9px;
+    }
     .econ-el-actual {
-        width: 20%;
+        position: absolute;
+        right: -10px;
+        bottom: 0;
     }
-    .econ-el-level,
-    .econ-el-detail-flag {
+    .econ-el-previous, .econ-el-forecast, .econ-el-actual {
+        width: 44px;
+    }
+    .econ-el-level, .econ-el-detail-flag {
         display: none;
     }
     .econ-green-box-container {
@@ -270,72 +303,78 @@
         margin-bottom: 15px;
     }
     .econ-event-detail-report-container {
-    padding: 0 0 5px 0;
-  }
-  .econ-ed-right, .econ-ed-left {
-    float: none;
-    width: 100%;
-    padding-bottom: 30px;
-    overflow: hidden;
-}
-.econ-ed-left-top {
-    width: 50%;
-    float: left;
-}
-.econ-ed-left-title {
-    font-size: 46px;
-}
-.econ-ed-left-d {
-    line-height: 26px;
-    font-size: 18px;
-}
-.econ-ed-left-t {
-    font-size: 14px;
-}
-.econ-ed-left-bottom {
-    float: left;
-    width: 50%;
-}
-.fa.icon-top {
-    font-size: 24px;
-}
-.icon-top-text {
-    font-size: 12px;
-    padding-top: 5px;
-}
-.econ-green-bar span, .econ-blue-bar span {
-    font-size: 90px;
-}
-.econ-ed-heading {
-  font-size: 16px;
-}
-.grn-title {
-    font-size: 16px;
-    float: none;
-    width: 100%;
-}
-.mini.econ-events-list{
-  float: none;
-}
-.opinion-left, .opinion-right, .opinion-rt-left, .opinion-rt-right{
-  width: 100%;
-  float: none;
-  overflow: hidden;
-}
-.econ-points-bar {
-    float: none;
-    width: 100%;
-}
-.econ-blue-bar, .econ-violet-bar {
-    width: 50%;
-    float: left;
-}
-.graph-record-1, .graph-record-2, .graph-record-3 {
-    width: 100%;
-    float: none;
-    overflow: hidden;
-    text-align: center;
-}
-
-
+        padding: 0 0 5px 0;
+    }
+    .econ-ed-right, .econ-ed-left {
+        float: none;
+        width: 100%;
+        padding-bottom: 30px;
+        overflow: hidden;
+    }
+    .econ-ed-left-top {
+        width: 50%;
+        float: left;
+    }
+    .econ-ed-left-title {
+        font-size: 46px;
+    }
+    .econ-ed-left-d {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .econ-ed-left-t {
+        font-size: 14px;
+    }
+    .econ-ed-left-bottom {
+        float: left;
+        width: 50%;
+    }
+    .fa.icon-top {
+        font-size: 24px;
+    }
+    .icon-top-text {
+        font-size: 12px;
+        padding-top: 5px;
+    }
+    .econ-green-bar span, .econ-blue-bar span {
+        font-size: 90px;
+    }
+    .econ-ed-heading {
+        font-size: 16px;
+    }
+    .grn-title {
+        font-size: 16px;
+        float: none;
+        width: 100%;
+    }
+    .mini.econ-events-list {
+        float: none;
+    }
+    .opinion-left, .opinion-right, .opinion-rt-left, .opinion-rt-right {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+    }
+    .econ-points-bar {
+        float: none;
+        width: 100%;
+    }
+    .econ-blue-bar, .econ-violet-bar {
+        width: 50%;
+        float: left;
+    }
+    .graph-record-1, .graph-record-2, .graph-record-3 {
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        text-align: center;
+    }
+    .econ-event-searchbox .fa-search {
+        width: 16%;
+        background: #171f35;
+    }
+    .econ-event-searchbox .input-box {
+        padding: 8px 2%;
+        width: 80%;
+    }
 }
