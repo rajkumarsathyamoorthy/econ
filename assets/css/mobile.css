@@ -269,4 +269,73 @@
         padding: 0;
         margin-bottom: 15px;
     }
+    .econ-event-detail-report-container {
+    padding: 0 0 5px 0;
+  }
+  .econ-ed-right, .econ-ed-left {
+    float: none;
+    width: 100%;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.econ-ed-left-top {
+    width: 50%;
+    float: left;
+}
+.econ-ed-left-title {
+    font-size: 46px;
+}
+.econ-ed-left-d {
+    line-height: 26px;
+    font-size: 18px;
+}
+.econ-ed-left-t {
+    font-size: 14px;
+}
+.econ-ed-left-bottom {
+    float: left;
+    width: 50%;
+}
+.fa.icon-top {
+    font-size: 24px;
+}
+.icon-top-text {
+    font-size: 12px;
+    padding-top: 5px;
+}
+.econ-green-bar span, .econ-blue-bar span {
+    font-size: 90px;
+}
+.econ-ed-heading {
+  font-size: 16px;
+}
+.grn-title {
+    font-size: 16px;
+    float: none;
+    width: 100%;
+}
+.mini.econ-events-list{
+  float: none;
+}
+.opinion-left, .opinion-right, .opinion-rt-left, .opinion-rt-right{
+  width: 100%;
+  float: none;
+  overflow: hidden;
+}
+.econ-points-bar {
+    float: none;
+    width: 100%;
+}
+.econ-blue-bar, .econ-violet-bar {
+    width: 50%;
+    float: left;
+}
+.graph-record-1, .graph-record-2, .graph-record-3 {
+    width: 100%;
+    float: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+
 }
